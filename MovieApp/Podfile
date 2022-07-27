@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MovieApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MovieApp
+  
+  # Pods for PromiseKit
+  pod "PromiseKit"
+  
+  # Pods for PromiseKit
+  pod 'Alamofire'
+    
+  # Pods for Kingfisher
+  pod 'Kingfisher'
+
+  # Extensions Helper
+  pod 'SwifterSwift'
+
+  # Pods for ObjectMapper
+  pod 'ObjectMapper'
+  
+  # Pods for RealmSwift
+#  pod 'RealmSwift'
+  
+  # Pods for YouTube Player
+  pod 'youtube-ios-player-helper'
+
+  pod 'XCDYouTubeKit', git: 'https://github.com/jatin19121990/XCDYouTubeKit', branch: 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525', submodules: true
+
+  target 'MovieAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MovieAppUITests' do
+    # Pods for testing
+  end
+
+end

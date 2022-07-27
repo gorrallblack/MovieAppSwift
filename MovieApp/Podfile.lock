@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Kingfisher (6.3.0)
+  - ObjectMapper (4.2.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - XCDYouTubeKit (2.15.2)
+  - youtube-ios-player-helper (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - ObjectMapper
+  - PromiseKit
+  - SwifterSwift
+  - "XCDYouTubeKit (from `https://github.com/jatin19121990/XCDYouTubeKit`, branch `hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525`)"
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - ObjectMapper
+    - PromiseKit
+    - SwifterSwift
+    - youtube-ios-player-helper
+
+EXTERNAL SOURCES:
+  XCDYouTubeKit:
+    :branch: "hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525"
+    :git: https://github.com/jatin19121990/XCDYouTubeKit
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  XCDYouTubeKit:
+    :commit: 8389cd3a1beab8bba76649ff870125b580d9a049
+    :git: https://github.com/jatin19121990/XCDYouTubeKit
+    :submodules: true
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  XCDYouTubeKit: b120aced3d8638ffb570c5450cddb5a1dac448c7
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
+
+PODFILE CHECKSUM: 7af508ca38e4a224ed274bc64ac248808d22dc38
+
+COCOAPODS: 1.10.1
